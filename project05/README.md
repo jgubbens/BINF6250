@@ -1,5 +1,5 @@
 # Introduction
-
+This project implements the Smith-Waterman algorithm for localized sequence alignment. As a localized algorithm, Smith-Waterman finds the highest-scoring matching region between two sequences without requiring end-to-end matching. This approach uses dynamic programming to break the problem up into small pieces in the form of a scoring graph, allowing for problems to be solved using iterative small steps that can be repeated to solve long sequences.
 
 # Pseudocode
 ```
@@ -50,6 +50,7 @@ FUNCTION smith_waterman:
 ```
 
 # Successes
+* Our outputs from the examples given exactly matched the expected results.
 * After successfully running our program, we tested it on different sequences to make sure it worked beyond the two given examples. 
 
 # Struggles
@@ -57,7 +58,7 @@ FUNCTION smith_waterman:
 
 # Personal reflections
 ## Group Leader: Justin Gubbens
-
+This project was relatively straightforward for our group. While the past couple of projects were conceptually difficult and took a lot of clever coding to complete, our group was able to finish almost the entire project within just one synchronous meeting. I believe this was because we all came into the project already fully conceptually understanding the algorithm and what needed to be translated into code. When it came to actually writing the code, we took it on as a group effort, deciding how the methods should be organized and writing code syntax on a shared screen. While there was initially some confusion regarding order of operations in the traceback method, we were able to stop and conceptually run through an example from a picture of a scoring matrix together to figure it out. Overall, I feel that we all came out of the project fully understanding the concept of the algorithm and the code that runs it.
 
 ## Other members
 ### Selin Uenal
